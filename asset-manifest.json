@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/WoT_Scout/static/css/main.7674119c.css",
-    "main.js": "/WoT_Scout/static/js/main.cb54a349.js",
+    "main.js": "/WoT_Scout/static/js/main.c0b2b77c.js",
     "static/js/453.eca5f793.chunk.js": "/WoT_Scout/static/js/453.eca5f793.chunk.js",
     "index.html": "/WoT_Scout/index.html",
     "main.7674119c.css.map": "/WoT_Scout/static/css/main.7674119c.css.map",
-    "main.cb54a349.js.map": "/WoT_Scout/static/js/main.cb54a349.js.map",
+    "main.c0b2b77c.js.map": "/WoT_Scout/static/js/main.c0b2b77c.js.map",
     "453.eca5f793.chunk.js.map": "/WoT_Scout/static/js/453.eca5f793.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7674119c.css",
-    "static/js/main.cb54a349.js"
+    "static/js/main.c0b2b77c.js"
   ]
 }
