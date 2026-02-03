@@ -33,7 +33,6 @@ function App() {
   }
 
   function onClanClick(clan) {
-    console.log(`CURRENT TANKS: ${JSON.stringify(tanks)}`)
     getClanDetails(clan.clan_id)
     .then(async clan => {
       const enriched = await Promise.all(

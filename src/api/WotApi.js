@@ -37,7 +37,8 @@ export async function getClanDetails(clan_id) {
 }
 
 export async function getPlayerStrongholdGamesPerTank(account_id) {
-    return (await fetchWot("tanks/stats/", {in_garage: 1, account_id: account_id, fields: 'tank_id,stronghold_defense.battles'}))[account_id]
+    const data = (await fetchWot("tanks/stats/", {in_garage: 1, account_id: account_id, fields: 'tank_id,stronghold_defense.battles'}))[account_id]
+    return data ? data : []
 }
 
 export async function getTanks() {
